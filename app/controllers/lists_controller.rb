@@ -12,6 +12,7 @@ class ListsController < ApplicationController
     end
   end
 
+
   def index
     @lists = List.all
   end
